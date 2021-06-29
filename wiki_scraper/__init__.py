@@ -1,0 +1,1 @@
+from wiki_scraper.myfunctions import WikiScraper

@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: wiki-scraper
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Rigved Alankar
+Author-email: rigvedalankar2000@gmail.com
+License: MIT
+Description: Wikipedia Scraper
+        
+        A library for scraping data from Wikipedia. Can be useful in Natural Language Processing, text processing etc. The library can also perform certain tasks on the scrpaed text such as removing punctutations,numbers,citations, converting text into lower case and tokenization
+        
+        Installation
+        
+        pip install wiki-scraper
+        
+        Get Started
+        
+        How to scrape data from the wikipedia article using this library
+        
+        from wiki_scraper import WikiScraper
+        
+        scraper = WikiScraper('India')
+        text = WikiScraper.get_data(remove_punctuations=False,remove_numbers=False,lower_case=False,remove_citations=False,tokenization=False)
+        
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
