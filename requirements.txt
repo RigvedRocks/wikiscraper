@@ -1,4 +1,3 @@
-re
 nltk
 bs4
 requests
