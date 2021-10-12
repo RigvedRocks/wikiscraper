@@ -28,5 +28,5 @@ setup(
     ],
     packages=["wiki_scraper"],
     include_package_data=True,
-    install_requires=["re","requests","nltk","bs4"]
+    install_requires=["requests","nltk","bs4"]
 )
